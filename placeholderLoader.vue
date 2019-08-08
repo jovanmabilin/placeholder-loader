@@ -24,6 +24,8 @@
     import bulletList from './templates/bulletList';
     import imgBodyHorizontal from './templates/imgBodyHorizontal';
     import imgBodyVertical from './templates/imgBodyVertical';
+    import box from './templates/box';
+    import tableList from './templates/tableList';
     export default {
         props: {
             template: {
@@ -48,6 +50,8 @@
             bulletList,
             imgBodyHorizontal,
             imgBodyVertical,
+            box,
+            tableList,
         },
         data() {
             return {
