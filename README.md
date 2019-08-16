@@ -3,7 +3,7 @@
 ## Usage
 ```vue
 <template>
-  <crm-loader :isLoading="isLoading" :rows="10" :column="1" template="bulletList">
+  <crm-loader :isLoading="isLoading" :row="10" :column="1" template="bulletList">
     <!-- Content to be Displayed-->
   </crm-loader>
 </template>
